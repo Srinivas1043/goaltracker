@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "An app to track the goals and make decisions valuable.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Srinivas1043/goaltracker.git"
+  },
+  "keywords": [
+    "Goal",
+    "tracker",
+    "Startup",
+    "personal",
+    "development"
+  ],
+  "author": "Srinivas Muralidharan , Absolutes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Srinivas1043/goaltracker/issues"
+  },
+  "homepage": "https://github.com/Srinivas1043/goaltracker#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.4.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.4.0",
+    "morgan": "^1.9.1"
+  }
+}
